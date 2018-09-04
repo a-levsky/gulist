@@ -6,6 +6,4 @@ Usage:
 
 ./gulist.sh -g <groupname>
 
-Use freely but give credit
-
 ![gulist example](http://i.imgur.com/1xw7p5i.jpg)
