@@ -21,7 +21,7 @@ PASSWD_FILE="/etc/passwd"
 function groupList {
   GROUP_NAME=$1
 
-  #Determine GROUP_ID of tge group by querying GROUP_FILE
+  #Determine GROUP_ID of the group by querying GROUP_FILE
   GROUP_ID="$(grep ^$GROUP_NAME: $GROUP_FILE | cut -d ":" -f3 | sed 's/,/ /g')"
 
   #Extract all users belonging to the group in a secondary capacity and add them to USERS array
